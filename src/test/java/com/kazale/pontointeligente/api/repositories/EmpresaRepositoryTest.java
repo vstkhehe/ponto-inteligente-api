@@ -27,7 +27,7 @@ public class EmpresaRepositoryTest {
 	public void setUp() throws Exception {
 		Empresa empresa = new Empresa();
 		empresa.setRazaoSocial("Empresa de exemplo");
-		empresa.setCnpj(CNPJ);
+		empresa.setCnpj();
 		this.empresaRepository.save(empresa);
 	}
 	

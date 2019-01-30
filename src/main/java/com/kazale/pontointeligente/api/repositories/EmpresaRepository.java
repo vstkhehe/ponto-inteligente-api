@@ -7,7 +7,7 @@ import com.kazale.pontointeligente.api.entities.Empresa;
 
 public interface EmpresaRepository extends JpaRepository<Empresa, Long> {
 	
-	@Transactional(readOnly = true)
-	Empresa findByCnpj(String cnpj);
+    @Transactional(readOnly = true)
+	Empresa findByCnpj(String cnpj); 
 
 }
