@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.security;
+/*package com.kazale.pontointeligente.api.security;
 
 import java.io.IOException;
 
@@ -19,4 +19,4 @@ public class JwtAuthenticationEntryPoint implements AuthenticationEntryPoint {
 				"Acesso negado. Você deve estar autenticado no sistema para acessar a URL solicitada.");
 	}
 
-}
+} */
