@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.config;
+/*package com.kazale.pontointeligente.api.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -59,3 +59,4 @@ public class SwaggerConfig {
 	}
 
 }
+*/

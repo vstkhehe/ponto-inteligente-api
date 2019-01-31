@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.security.controllers;
+/*package com.kazale.pontointeligente.api.security.controllers;
 
 import java.util.Optional;
 
@@ -54,6 +54,7 @@ public class AuthenticationController {
 	 * @return ResponseEntity<Response<TokenDto>>
 	 * @throws AuthenticationException
 	 */
+/*
 	@PostMapping
 	public ResponseEntity<Response<TokenDto>> gerarTokenJwt(
 			@Valid @RequestBody JwtAuthenticationDto authenticationDto, BindingResult result)
@@ -84,6 +85,8 @@ public class AuthenticationController {
 	 * @param request
 	 * @return ResponseEntity<Response<TokenDto>>
 	 */
+
+/*
 	@PostMapping(value = "/refresh")
 	public ResponseEntity<Response<TokenDto>> gerarRefreshTokenJwt(HttpServletRequest request) {
 		log.info("Gerando refresh token JWT.");
@@ -110,3 +113,5 @@ public class AuthenticationController {
 	}
 
 }
+
+*/

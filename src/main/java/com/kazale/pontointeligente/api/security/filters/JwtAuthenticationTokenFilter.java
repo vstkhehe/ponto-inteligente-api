@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.security.filters;
+/*package com.kazale.pontointeligente.api.security.filters;
 
 import java.io.IOException;
 
@@ -51,3 +51,4 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
     }
 
 }
+*/
