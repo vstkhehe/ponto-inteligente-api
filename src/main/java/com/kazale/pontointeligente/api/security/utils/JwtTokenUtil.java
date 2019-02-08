@@ -1,4 +1,4 @@
-/*package com.kazale.pontointeligente.api.security.utils;
+package com.kazale.pontointeligente.api.security.utils;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -33,7 +33,7 @@ public class JwtTokenUtil {
 	 * @return String
 	 */
 
-/*
+
 	public String getUsernameFromToken(String token) {
 		String username;
 		try {
@@ -52,7 +52,7 @@ public class JwtTokenUtil {
 	 * @return Date
 	 */
 
-/*
+
 	public Date getExpirationDateFromToken(String token) {
 		Date expiration;
 		try {
@@ -71,7 +71,7 @@ public class JwtTokenUtil {
 	 * @return String
 	 */
 
-/*
+
 	public String refreshToken(String token) {
 		String refreshedToken;
 		try {
@@ -91,7 +91,7 @@ public class JwtTokenUtil {
 	 * @return boolean
 	 */
 
-/*
+
 	public boolean tokenValido(String token) {
 		return !tokenExpirado(token);
 	}
@@ -103,7 +103,7 @@ public class JwtTokenUtil {
 	 * @return String
 	 */
 
-/*
+
 	public String obterToken(UserDetails userDetails) {
 		Map<String, Object> claims = new HashMap<>();
 		claims.put(CLAIM_KEY_USERNAME, userDetails.getUsername());
@@ -121,7 +121,7 @@ public class JwtTokenUtil {
 	 * @return Claims
 	 */
 
-/*
+
 	private Claims getClaimsFromToken(String token) {
 		Claims claims;
 		try {
@@ -138,7 +138,7 @@ public class JwtTokenUtil {
 	 * @return Date
 	 */
 
-/*
+
 	private Date gerarDataExpiracao() {
 		return new Date(System.currentTimeMillis() + expiration * 1000);
 	}
@@ -150,7 +150,7 @@ public class JwtTokenUtil {
 	 * @return boolean
 	 */
 
-/*
+
 	private boolean tokenExpirado(String token) {
 		Date dataExpiracao = this.getExpirationDateFromToken(token);
 		if (dataExpiracao == null) {
@@ -165,11 +165,10 @@ public class JwtTokenUtil {
 	 * @param claims
 	 * @return String
 	 */
-/*
+
 	private String gerarToken(Map<String, Object> claims) {
 		return Jwts.builder().setClaims(claims).setExpiration(gerarDataExpiracao())
 				.signWith(SignatureAlgorithm.HS512, secret).compact();
 	}
 
 } 
-*/
